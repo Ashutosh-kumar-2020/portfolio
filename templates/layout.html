@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <title>Ashutosh AKA akcaptain | Personal Resume</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Open+Sans:400,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/themefisher-fonts.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/dark.css') }}">
+        <link id="color-changer" rel="stylesheet" href="{{ url_for('static', filename='css/colors/red.css') }}">
+        <link id="color-changer" rel="stylesheet" href="{{ url_for('static', filename='css/colors/blue.css') }}">
+        <link id="color-changer" rel="stylesheet" href="{{ url_for('static', filename='css/colors/green.css') }}">
+        <link id="color-changer" rel="stylesheet" href="{{ url_for('static', filename='css/colors/yellow.css') }}">
+
+    </head>
+
+    <body class="dark">
+
+        <div class="preloader">
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+        </div>
+
+        <div class="preview-wrapper">
+            <div class="switcher-head">
+                <span>Style Switcher</span>
+                <div class="switcher-trigger tf-tools"></div>
+            </div>
+
+            <div class="switcher-body">
+                <h4>Choose Color:</h4>
+                <ul class="color-options list-none">
+                    <li class="c0" data-color="red" title="Default">Default</li>
+                    <li class="c1" data-color="blue" title="Red">Red</li>
+                    <li class="c2" data-color="green" title="Green">Green</li>
+                    <li class="c3" data-color="yellow" title="Blue">Blue</li>
+                </ul>
+            </div>
+        </div>
+
+    {% block body %} {% endblock %}
+
+        <footer style="text-align: center;">
+            All rights reserved @akcaptain-portfolio 2022-23 
+        </footer>
+
+    
+
+
+        <script src="{{ url_for('static', filename='js/vendor/jquery-2.2.4.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/vendor/bootstrap.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/jquery.easing.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/isotope.pkgd.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/jquery.nicescroll.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/jquery-validation.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/form.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    </body>
+</html>

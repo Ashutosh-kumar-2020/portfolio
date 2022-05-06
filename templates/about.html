@@ -1,0 +1,99 @@
+{% extends "layout.html" %}
+{% block body %}
+        <main class="site-wrapper">
+            <div class="pt-table">
+                <div class="pt-tablecell page-about relative">
+                    <!-- .close -->
+                    <a href="./" class="page-close"><i class="tf-ion-close"></i></a>
+                    <!-- /.close -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                                <div class="page-title text-center">
+                                    <h2>About <span class="primary">me</span> <span class="title-bg">Name</span></h2>
+                                    <p>I am a intermediate level web devloper and a begginer level python programmer, For frontend i use HTML, CSS, JS and SASS whereas for backend i use Djanog, but I can also work with Flask and PHP</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <div class="about-author">
+                                    <figure class="author-thumb">
+                                        <img src="{{ url_for('static', filename='img/author2.jpg') }}" alt="">
+                                    </figure> <!-- /.author-bio -->
+                                    <div class="author-desc">
+                                        <p><b>Date of birth:</b> 9th febraury, 2008</p>
+                                        <p><b>Language:</b> English, Hindi</p>
+                                        <p><b>Expert in:</b> python, Web development</p>
+                                        <p><b>Freelance:</b> Available</p>
+                                        <p><b>For Hackathon:</b> Available</p>
+                                    </div>
+                                    <!-- /.author-desc -->
+                                </div> <!-- /.about-author -->
+                                <p>I am a intermediate level web devloper and a begginer level python programmer, For frontend i use HTML, CSS, JS and SASS whereas for backend i use Djanog, but I can also work with Flask and PHP</p>
+                            </div> <!-- /.col -->
+
+                            <div class="col-xs-12 col-md-6">
+                                <div class="section-title clear">
+                                    <h3>Skills</h3>
+                                </div>
+                                <div class="skill-wrapper">
+                                    <div class="progress clear">
+                                        <div class="skill-name">HTML <small>95%</small></div>
+                                        <div class="skill-bar">
+                                            <div class="bar"></div>
+                                        </div>
+
+                                        <div class="skill-name">CSS <small>80%</small></div>
+                                        <div class="skill-bar">
+                                            <div class="bar"></div>
+                                        </div>
+
+                                        <div class="skill-name">JS <small>85%</small></div>
+                                        <div class="skill-bar">
+                                            <div class="bar"></div>
+                                        </div>
+                                        <div class="skill-lavel" data-skill-value="90%"></div>
+                                    </div> <!-- /.progress -->
+                                    <div class="progress clear">
+                                        <div class="skill-name">Python3</div>
+                                        <div class="skill-bar">
+                                            <div class="bar"></div>
+                                        </div>
+                                        <div class="skill-lavel" data-skill-value="78%"></div>
+                                    </div> <!-- /.progress -->
+                                    <div class="progress clear">
+                                        <div class="skill-name">Flask</div>
+                                        <div class="skill-bar">
+                                            <div class="bar"></div>
+                                        </div>
+                                        <div class="skill-lavel" data-skill-value="85%"></div>
+                                    </div> <!-- /.progress -->
+                                    <div class="progress clear">
+                                        <div class="skill-name">Django</div>
+                                        <div class="skill-bar">
+                                            <div class="bar"></div>
+                                        </div>
+                                        <div class="skill-lavel" data-skill-value="95%"></div>
+                                    </div> <!-- /.progress -->
+                                    <div class="progress clear">
+                                        <div class="skill-name">PHP</div>
+                                        <div class="skill-bar">
+                                            <div class="bar"></div>
+                                        </div>
+                                        <div class="skill-lavel" data-skill-value="70%"></div>
+                                    </div> <!-- /.progress -->
+                                    <div class="progress clear">
+                                        <div class="skill-name">jQuery</div>
+                                        <div class="skill-bar">
+                                            <div class="bar"></div>
+                                        </div>
+                                        <div class="skill-lavel" data-skill-value="75%"></div>
+                                    </div> <!-- /.progress -->
+                                </div> <!-- /.skill-wrapper -->
+                            </div> <!-- /.col -->
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+                    <!-- /.container -->
+                </div> <!-- /.pt-tablecell -->
+            </div> <!-- /.pt-table -->
+        </main> <!-- /.site-wrapper -->
+{% endblock %}

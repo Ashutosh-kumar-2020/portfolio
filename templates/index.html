@@ -1,0 +1,221 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<style>
+
+</style>
+
+<main class="site-wrapper">
+    <div class="pt-table">
+        <div class="pt-tablecell page-home relative" style="background-image: url('../static/img/banner.jpg');">
+            <div class="overlay"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                        <div class="page-title home text-center">
+                            <div class="head-img">
+                                <img id="akcaptain-img" src="{{ url_for('static', filename='img/akcaptain2.png') }}"
+                                    alt="">
+                            </div>
+                            <div class="head-para">
+                            <p>I am a web devloper and a Python programming, I am quiet new to programming but I try my
+                                best to finish the work i have started</p>
+                            </div>
+                        </div>
+
+                        <div class="hexagon-menu clear">
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="/welcome" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="tf-dial"></i>
+                                        </span>
+                                        <span class="title">Welcome</span>
+                                    </span>
+                                    <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                                            fill="#1e2530"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="/about" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="tf-profile-male"></i>
+                                        </span>
+                                        <span class="title">About</span>
+                                    </span>
+                                    <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                                            fill="#1e2530"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="/services" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="tf-tools-2"></i>
+                                        </span>
+                                        <span class="title">Services</span>
+                                    </span>
+                                    <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                                            fill="#1e2530"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="/resume" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="tf-tools"></i>
+                                        </span>
+                                        <span class="title">Resume</span>
+                                    </span>
+                                    <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                                            fill="#1e2530"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="https://www.instragram.com/ashutoshkumar2363" target="_blank"
+                                    class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="tf-chat"></i>
+                                        </span>
+                                        <span class="title">Instragram</span>
+                                    </span>
+                                    <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                                            fill="#1e2530"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="{{ discord_server_link }}" target="_blank" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="tf-chat"></i>
+                                        </span>
+                                        <span class="title">Disocrd</span>
+                                    </span>
+                                    <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                                            fill="#1e2530"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="hexagon-item">
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div class="hex-item">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <a href="/contact" class="hex-content">
+                                    <span class="hex-content-inner">
+                                        <span class="icon">
+                                            <i class="tf-envelope2"></i>
+                                        </span>
+                                        <span class="title">Contact</span>
+                                    </span>
+                                    <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                                            fill="#1e2530"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</main>
+
+{% endblock %}
